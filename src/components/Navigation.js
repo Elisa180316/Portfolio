@@ -9,13 +9,13 @@ const Navigation = () => {
       <Navbar style={{ backgroundColor: "rgb(41, 39, 39)" }}>
         <Container>
           <Navbar.Brand
-            style={{ color: "white", fontSize: "24px" }}
+            style={{ color: "#dc1ddc", fontSize: "24px"}}
             href="#home"
           >
             HOME
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link style={{ color: "white", fontSize: "20px" }} href="#home">
+            <Nav.Link style={{ color: "white", fontSize: "20px", paddingRight: "0%" }} href="#home">
               SU DI ME
             </Nav.Link>
             <Nav.Link

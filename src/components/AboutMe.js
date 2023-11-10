@@ -6,26 +6,30 @@ import Row from "react-bootstrap/Row";
 export const AboutMe = () => {
   return (
     <>
-      <h2 id="features"
-        style={{
-          textAlign: "center",
-          marginTop: "8%",
-          marginBottom: "8%",
-          marginLeft: "-12%",
-          fontSize: "250%",
-        }}
-      >
-        Su di me{" "}
-        <span
-          style={{
-            background: "linear-gradient(60deg,  purple, blue)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          Su di me
-        </span>
-      </h2>
+      <h2
+  id="features"
+  style={{
+    textAlign: "center",
+    marginTop: "8%",
+    marginBottom: "8%",
+    marginLeft: "-2%",
+    fontSize: "250%",
+  }}
+>
+  <span
+    style={{
+      background: "linear-gradient(60deg,  purple, blue)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      fontSize: "100%",
+    }}
+  >
+    Su di me
+  </span>
+</h2>
+
+
+
 
       <div style={{ marginLeft: "10%" }}>
         <Row
@@ -134,43 +138,14 @@ export const AboutMe = () => {
         </Row>
       </div>
 
-      <Card
-        style={{
-          width: "50%",
-          backgroundColor: " rgb(41, 39, 39)",
-          marginTop: "8%",
-        }}
-      >
-        {/* <Card.Img
-          variant="top"
-          src="https://tse1.mm.bing.net/th?id=OIP.5U8G16Grx93yXb8BavN1agAAAA&pid=Api&P=0&h=100"
-          style={{ maxWidth: "50%", objectFit: "contain" }}
-        /> */}
+      <Card className="mx-auto mt-4 text-center" style={{ width: "80%", backgroundColor: "rgb(41, 39, 39)" }}>
         <Card.Body>
-          <div className="row">
-            <div>
-              <Card.Text
-                style={{
-                  color: "white",
-                  fontSize: "145%",
-                  lineHeight: "165%",
-                  textAlign: "justify",
-                }}
-              >
-                Ho appena completato un corso per Full Stack Web Developer
-                intensivo di 6 mesi presso Epicode e sono alla ricerca di un
-                ruolo come programmatrice preferibilmente completamente da
-                remoto ed in un'azienda che si dedichi alla formazione. Ho una
-                propensione al teamwork, al problem solving ed un approccio
-                positivo nei confronti delle nuove tecnologie mettendo passione
-                e determinazione in tutto quello che faccio per raggiungere gli
-                obiettivi prefissati e sono desiderosa di imparare nuove
-                tecnologie.
-              </Card.Text>
-            </div>
-          </div>
+          <Card.Text className="text-white" style={{ fontSize: "145%", lineHeight: "165%", textAlign: "justify" }}>
+            Ho appena completato un corso per Full Stack Web Developer intensivo di 6 mesi presso Epicode e sono alla ricerca di un ruolo come programmatrice preferibilmente completamente da remoto ed in un'azienda che si dedichi alla formazione. Ho una propensione al teamwork, al problem-solving ed un approccio positivo nei confronti delle nuove tecnologie mettendo passione e determinazione in tutto quello che faccio per raggiungere gli obiettivi prefissati e sono desiderosa di imparare nuove tecnologie.
+          </Card.Text>
         </Card.Body>
       </Card>
+      
     </>
   );
 };

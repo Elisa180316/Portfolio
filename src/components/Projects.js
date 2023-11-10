@@ -54,11 +54,11 @@ const Projects = () => {
           textAlign: "center",
           marginTop: "8%",
           marginBottom: "8%",
-          marginLeft: "-12%",
+          
           fontSize: "250%",
         }}
       >
-        Progetti{" "}
+        
         <span
           style={{
             background: "linear-gradient(60deg, white, purple, blue)",
@@ -69,6 +69,9 @@ const Projects = () => {
           Progetti
         </span>
       </h2>
+      
+
+      
       <div style={{ marginLeft: "4%", height:"80% !important"}}>
         <Row
         className='row-cols-1 row-cols-md-3 g-4'
@@ -373,10 +376,10 @@ const Projects = () => {
           <Col
             xs={12}
             sm={6}
-            md={3}
+            md={6}
             style={{ flex: "0 0 calc(25% - 20px)", marginBottom: "20px" }}
           >
-            <Card className='h-100' style={{ width: "30rem", height:"60rem" }}>
+            <Card className='h-100' style={{ width: "170%", height:"100%",  }}>
               <Card.Img
                 variant="top"
                 src={PSH}

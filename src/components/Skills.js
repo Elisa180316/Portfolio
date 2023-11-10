@@ -14,10 +14,10 @@ function Skills() {
         onClick={handleShow}
         style={{
           background: "linear-gradient(to bottom, #8a2be2, #ff1493)",
-          marginLeft: "72%",
-          marginTop: "-29%",
+          marginLeft: "45%",
+          marginTop: "2%",
           padding: "1%",
-          width: "8%",
+          width: "11%",
           color: "black",
         }}
       >
