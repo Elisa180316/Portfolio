@@ -40,6 +40,9 @@ export const AboutMe = () => {
             color: "white",
             padding: "20px",
             textAlign: "center",
+            ...(window.innerWidth <= 600 && {
+              marginLeft: '11%',
+            }),
           }}
         >
           <Col

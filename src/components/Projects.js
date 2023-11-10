@@ -72,7 +72,7 @@ const Projects = () => {
       
 
       
-      <div style={{ marginLeft: "4%", height:"80% !important"}}>
+      <div style={{ marginLeft: "4%", height:"80% !important", justifyContent: "justify-content-center"}}>
         <Row
         className='row-cols-1 row-cols-md-3 g-4'
           style={{
@@ -82,6 +82,9 @@ const Projects = () => {
             color: "white",
             padding: "20px",
             textAlign: "center",
+            ...(window.innerWidth <= 600 && {
+              marginLeft: '11%',
+            }),
 
           }}
         >
