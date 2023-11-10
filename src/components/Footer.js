@@ -63,7 +63,7 @@ const Footer = () => {
             <h5 style={{ marginLeft: "43%", marginBottom: "2%" }}>
               <a
                 href="https://www.linkedin.com/in/elisa-fambrini-422b04274/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 LinkedIn
@@ -72,7 +72,7 @@ const Footer = () => {
             <h5 style={{ marginLeft: "42%", marginBottom: "2%" }}>
               <a
                 href="https://www.instagram.com/elisafambrini/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 style={{ color: "white", textDecoration: "none" }}
               >
                 Instagram
