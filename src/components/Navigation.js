@@ -15,7 +15,7 @@ const Navigation = () => {
             HOME
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link style={{ color: "white", fontSize: "20px", paddingRight: "0%" }} href="#home">
+            <Nav.Link style={{ color: "white", fontSize: "20px", paddingLeft: "0%", paddingRight: "0%", whiteSpace: "nowrap", }} href="#home">
               SU DI ME
             </Nav.Link>
             <Nav.Link
