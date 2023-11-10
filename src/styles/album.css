@@ -1,0 +1,315 @@
+#Album {
+    border-radius: 0px;
+    object-fit:fill;
+    margin-left: 25%;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container {
+    flex: 0 0 30%;
+   
+  }
+  
+  #Album {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text {
+    flex: 1;
+    padding-left: 20%; 
+    padding-right: 20%;
+  }
+  
+ 
+  
+  #Blog {
+    border-radius: 0px;
+    object-fit:fill;
+    margin-left: 25%;
+    display: flex;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container1 {
+    flex: 0 0 30%;
+   
+  }
+  
+  #Blog {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text1 {
+    flex: 1;
+    padding-left: 20%; 
+    padding-right: 20%;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container2 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #BooksApi {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text2 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+  
+
+  .container3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container3 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Chessboard {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text3 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container4 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #I1, #I2, #I3{
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text4 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container5 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Geeks {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text5 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container6 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container6 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Honey {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text6 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container7 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container7 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Netflix {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text7 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container8 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container8 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Spotify {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text8 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container9 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container9 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Ricetta {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text9 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container10 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container10 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #Test {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text10 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container11 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container11 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #UserList {
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text11 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
+
+  .container124 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .image-container12 {
+    flex: 0 0 -50%;
+    padding-left: -20px; /* Adjust the padding as needed */
+  }
+  
+  #I4, #I5, #I6, #I7,#I8,#I9,#I10,#I11{
+    max-width: 74%;
+    height: auto;
+    display: block;
+  }
+  
+  .text12 {
+    flex: 1;
+    padding-left: 10%; 
+    padding-right: 10%;
+  }
